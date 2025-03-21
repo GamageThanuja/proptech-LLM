@@ -8,9 +8,10 @@ venv/
 *.bin
 *.csv
 *.xlsx
-models/
+#models/
 logs/
 
 __pycache__/
 
 
+.gitignore.save
