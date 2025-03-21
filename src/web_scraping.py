@@ -41,4 +41,3 @@ def scrape_proptech_data(query: str, max_results: int = 5) -> list:
     except Exception as e:
         logger.error(f"Error during API request: {e}")
         return []
-
