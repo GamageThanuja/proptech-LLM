@@ -12,8 +12,8 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Google Custom Search API credentials
-API_KEY = os.getenv("GOOGLE_API_KEY")
-SEARCH_ENGINE_ID = os.getenv("SEARCH_ENGINE_ID")
+API_KEY = st.secrets["GOOGLE_API_KEY"]
+SEARCH_ENGINE_ID = st.secrets["SEARCH_ENGINE_ID"]
 
 def scrape_proptech_data(query: str, max_results: int = 5) -> list:
     """
