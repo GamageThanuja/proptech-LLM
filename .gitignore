@@ -11,3 +11,4 @@ venv/
 models/
 logs/
 
+__pycache__/
