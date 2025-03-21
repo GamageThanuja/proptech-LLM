@@ -13,15 +13,4 @@ logs/
 
 __pycache__/
 
-venv/
-*.dylib
-*.so
-*.pkl
-*.h5
-*.pt
-*.bin
-*.csv
-*.xlsx
-models/
-logs/
 
