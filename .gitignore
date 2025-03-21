@@ -10,7 +10,7 @@ venv/
 *.xlsx
 #models/
 logs/
-
+.DS_Store
 __pycache__/
 
 
