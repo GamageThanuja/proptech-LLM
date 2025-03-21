@@ -1,15 +1,25 @@
-📌 PropTech LLM
-A GPT-2-based AI assistant for answering PropTech-related questions and web research.
+# 📌 PropTech LLM  
+A GPT-2-based AI assistant for answering PropTech-related questions and web research.  
 
-🚀 Features
-✅ Fine-tuned GPT-2 model for PropTech queries
-✅ Dynamic keyword updates for better responses
-✅ Web scraping for real-time property insights
-✅ Streamlit-based UI for easy interaction
+## 🚀 Features  
+✅ Fine-tuned **GPT-2 model** for PropTech queries  
+✅ Dynamic keyword updates for better responses  
+✅ Web scraping for real-time property insights  
+✅ Streamlit-based UI for easy interaction  
+
+---
+
+## ⚙️ Setup  
+
+### 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/GamageThanuja/proptech-llm.git
+cd PropTech_LLM
+
 
 Setup
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/PropTech_LLM.git
+git clone https://github.com/GamageThanuja/proptech-llm.git
 cd PropTech_LLM
 
 2️⃣ Create a Virtual Environment
@@ -31,7 +41,6 @@ python src/inference.py
 
 7️⃣ Start the Web App
 streamlit run src/app.py
-
 
 🛠 Testing
 python -m unittest tests/test_functionality.py
